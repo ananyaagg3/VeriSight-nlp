@@ -1,0 +1,108 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyc
+*.pyo
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+.cache/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# ML / HuggingFace / Models
+# =========================
+
+# HuggingFace & transformers cache
+backend/ml-models/cache/
+backend/**/cache/
+**/models--*/
+
+# Model weights (NEVER commit)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+
+# Local ML experiments & datasets
+ml-models/
+ml-models/data/
+
+# =========================
+# Data files (large)
+# =========================
+*.csv
+*.tsv
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Large documentation / media
+# =========================
+*.pptx
+*.pdf
